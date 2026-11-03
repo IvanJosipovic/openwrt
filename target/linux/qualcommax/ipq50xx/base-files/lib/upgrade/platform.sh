@@ -288,6 +288,7 @@ platform_do_upgrade() {
 		;;
 	tplink,archer-ax55-v1|\
 	tplink,eap650-outdoor-v1|\
+	tplink,festa-f65-wall-v1|\
 	tplink,re700x)
 		# Dual boot: install into the inactive rootfs/rootfs_1 slot,
 		# then point tp_boot_idx at it. The running slot is left

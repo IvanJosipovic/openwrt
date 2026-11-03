@@ -23,7 +23,8 @@ zyxel,scr50axe)
 	;;
 glinet,gl-b3000|\
 tplink,archer-ax55-v1|\
-tplink,eap650-outdoor-v1)
+tplink,eap650-outdoor-v1|\
+tplink,festa-f65-wall-v1)
 	ubootenv_add_mtd "0:APPSBLENV" "0x0" "0x40000" "0x20000"
 	;;
 linksys,mr2000|\
