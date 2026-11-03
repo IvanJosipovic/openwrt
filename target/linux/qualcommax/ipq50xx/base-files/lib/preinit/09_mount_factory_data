@@ -2,11 +2,13 @@
 
 preinit_mount_factory_data() {
 	local mtd_path
+	local PATH="/usr/sbin:/usr/bin:$PATH"
 
 	. /lib/functions.sh
 	. /lib/functions/system.sh
 
 	case $(board_name) in
+	tplink,festa-f65-wall-v1|\
 	tplink,eap650-outdoor-v1|\
 	tplink,re700x)
 		mtd_path=$(find_mtd_chardev "factory_data")
